@@ -958,9 +958,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.1.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib/vndk/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_foundation.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib/vndk/libstagefright_omx_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_omx_utils.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib/vndk/libstagefright_xmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_xmlparser.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-util.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@2.0-util.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/android.hardware.audio.common@4.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@4.0-util.so \
@@ -1451,8 +1448,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.1.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.teeregistry@1.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vndk/libcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libcrypto.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vndk/libssl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libssl.so \
     vendor/samsung/starqltechn/proprietary/vendor/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.prototxt:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.prototxt \
     vendor/samsung/starqltechn/proprietary/vendor/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn_light.caffemodel:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn_light.caffemodel \
     vendor/samsung/starqltechn/proprietary/vendor/saiv/image_understanding/db/aic_detector/aic_detector_cnn.prototxt:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aic_detector/aic_detector_cnn.prototxt \
