@@ -49,8 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so \
     vendor/samsung/starqltechn/proprietary/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so \
     vendor/samsung/starqltechn/proprietary/lib64/vendor.qti.hardware.scve.panorama@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.scve.panorama@1.0.so \
-    vendor/samsung/starqltechn/proprietary/odm/etc/omc/single/BVO/res/media/bootsamsung.qmg:$(TARGET_COPY_OUT_ODM)/etc/omc/single/BVO/res/media/bootsamsung.qmg \
-    vendor/samsung/starqltechn/proprietary/odm/etc/omc/single/UYO/res/media/bootsamsung.qmg:$(TARGET_COPY_OUT_ODM)/etc/omc/single/UYO/res/media/bootsamsung.qmg \
     vendor/samsung/starqltechn/proprietary/product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml \
     vendor/samsung/starqltechn/proprietary/product/lib/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.quicinc.cne.api@1.0.so \
     vendor/samsung/starqltechn/proprietary/product/lib/com.quicinc.cne.api@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.quicinc.cne.api@1.1.so \
@@ -105,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/android.hardware.atrace@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.atrace@1.0-service \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/android.hardware.audio@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@2.0-service \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service \
-    vendor/samsung/starqltechn/proprietary/vendor/bin/hw/android.hardware.configstore@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.configstore@1.1-service \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.clearkey \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
@@ -126,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/sec.android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/sec.android.hardware.nfc@1.2-service \
-    vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.qti.hardware.cryptfshw@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.cryptfshw@1.0-service-qti \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.qti.hardware.cvp@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.cvp@1.0-service \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.qti.hardware.display.allocator@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.display.allocator@1.0-service \
@@ -143,13 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.samsung.hardware.media.converter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.media.converter@1.0-service \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@2.0-service \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service \
-    vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.samsung.hardware.snap@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.snap@1.1-service \
-    vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.samsung.hardware.soter@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.soter@3.0-service \
-    vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.atn@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.atn@1.0-service \
-    vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.iccc@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.iccc@1.0-service \
-    vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.payment@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.payment@1.0-service \
-    vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.tima@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.tima@1.0-service \
-    vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.ucm@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.ucm@2.0-service \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.samsung.hardware.vibrator@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.vibrator@2.1-service \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.wifi@2.0-service \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/vendor.trustonic.tee@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.tee@1.0-service \
@@ -193,11 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/samsung/starqltechn/proprietary/vendor/bin/time_client:$(TARGET_COPY_OUT_VENDOR)/bin/time_client \
     vendor/samsung/starqltechn/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
-    vendor/samsung/starqltechn/proprietary/vendor/bin/vaultkeeperd:$(TARGET_COPY_OUT_VENDOR)/bin/vaultkeeperd \
-    vendor/samsung/starqltechn/proprietary/vendor/bin/vendor.samsung.hardware.security.proca@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.proca@2.0-service \
-    vendor/samsung/starqltechn/proprietary/vendor/bin/vendor.samsung.hardware.security.vaultkeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.vaultkeeper@1.0-service \
     vendor/samsung/starqltechn/proprietary/vendor/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service \
-    vendor/samsung/starqltechn/proprietary/vendor/bin/vendor.samsung.hardware.security.wsm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.wsm@1.0-service \
     vendor/samsung/starqltechn/proprietary/vendor/bin/vppservice:$(TARGET_COPY_OUT_VENDOR)/bin/vppservice \
     vendor/samsung/starqltechn/proprietary/vendor/bin/wifilearner:$(TARGET_COPY_OUT_VENDOR)/bin/wifilearner \
     vendor/samsung/starqltechn/proprietary/vendor/bin/wvkprov:$(TARGET_COPY_OUT_VENDOR)/bin/wvkprov \
@@ -224,7 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/android.hardware.atrace@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.atrace@1.0-service.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/android.hardware.audio@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@2.0-service.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service.rc \
-    vendor/samsung/starqltechn/proprietary/vendor/etc/init/android.hardware.configstore@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.configstore@1.1-service.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.clearkey.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
@@ -260,10 +244,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sec.android.hardware.nfc@1.2-service.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/secure_storage_daemon_qsee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/secure_storage_daemon_qsee.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/snap_utility.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snap_utility.rc \
-    vendor/samsung/starqltechn/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
-    vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.qti.hardware.cvp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.cvp@1.0-service.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.qti.hardware.display.allocator@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.allocator@1.0-service.rc \
@@ -282,13 +264,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc \
-    vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.samsung.hardware.snap@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.snap@1.1-service.rc \
-    vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.samsung.hardware.soter@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.soter@3.0-service.rc \
-    vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.atn@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.atn@1.0-service.rc \
-    vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc \
-    vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.payment@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.payment@1.0-service.rc \
-    vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.tima@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.tima@1.0-service.rc \
-    vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.ucm@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.ucm@2.0-service.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.samsung.hardware.vibrator@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.vibrator@2.1-service.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/vendor.trustonic.tee@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.0-service.rc \
@@ -296,7 +271,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/wifi_brcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_brcm.rc \
-    vendor/samsung/starqltechn/proprietary/vendor/etc/init/wsm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wsm-service.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
     vendor/samsung/starqltechn/proprietary/vendor/etc/locale/plmn_delta_eng.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_eng.bin \
     vendor/samsung/starqltechn/proprietary/vendor/etc/locale/plmn_delta_zh-rCN.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_zh-rCN.bin \
@@ -522,7 +496,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib/hw/sound_trigger.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.sdm845.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/hw/thermal.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.sdm845.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/hw/vendor.qti.gnss@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@3.0-impl.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/hw/vendor.qti.hardware.cvp@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.cvp@1.0-impl.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
@@ -530,7 +503,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/hw/vendor.samsung.hardware.light@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.light@3.0-impl.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib/hw/vendor.samsung.hardware.snap@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.snap@1.1-impl.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/hw/vr.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vr.sdm845.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/hw/vulkan.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.sdm845.so \
@@ -825,7 +797,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib/libsnap_caffe_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_caffe_wrapper.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/libsnap_compute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_compute.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/libsnap_compute_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_compute_wrapper.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib/libsnap_v1.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_v1.samsung.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/libsnap_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_vndk.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/libsnaplite_native.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnaplite_native.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/libsnaplite_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnaplite_wrapper.so \
@@ -912,9 +883,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib/libucm_tlc_comm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libucm_tlc_comm.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib/libucm_tlc_direct_comm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libucm_tlc_direct_comm.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib/libucm_tlc_tz_esecomm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libucm_tlc_tz_esecomm.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniapi.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniplugin.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/libvdis_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis_core.so \
@@ -1038,12 +1006,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.1.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.samsung.hardware.security.proca@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.proca@2.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.samsung.hardware.security.securestorage@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.securestorage@3.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.samsung.hardware.snap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.snap@1.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.samsung.hardware.snap@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.snap@1.1.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.samsung.hardware.tlc.ucm@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.ucm@2.0-impl.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.samsung.hardware.tlc.ucm@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.ucm@2.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/vndk/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_foundation.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/vndk/libstagefright_omx_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_omx_utils.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/vndk/libstagefright_xmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_xmlparser.so \
@@ -1111,7 +1073,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/sound_trigger.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.sdm845.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/thermal.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.sdm845.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@3.0-impl.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/vendor.qti.hardware.cvp@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.cvp@1.0-impl.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
@@ -1119,7 +1080,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/vendor.samsung.hardware.light@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.light@3.0-impl.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/vendor.samsung.hardware.snap@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.snap@1.1-impl.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/vr.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vr.sdm845.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/vulkan.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.sdm845.so \
@@ -1167,7 +1127,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver_adreno.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/libSoterServiceImpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSoterServiceImpl.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libSubSystemShutdown.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSubSystemShutdown.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libTigerCaV4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTigerCaV4.so \
@@ -1230,7 +1189,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmtime.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libdrmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmutils.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsi_netctrl.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/libdsms_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsms_vendor.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvdsp_stub.so \
@@ -1254,7 +1212,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libgralloccore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloccore.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgrallocutils.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/libhal.wsm.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhal.wsm.samsung.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp1prov.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp2p2prov.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
@@ -1393,7 +1350,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libsnap_caffe_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_caffe_wrapper.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libsnap_compute.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_compute.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libsnap_compute_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_compute_wrapper.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/libsnap_v1.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_v1.samsung.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libsnap_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_vndk.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libsnaplite_native.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnaplite_native.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libsnaplite_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnaplite_wrapper.so \
@@ -1443,15 +1399,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/libtlc_comm_atn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlc_comm_atn.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/libtlc_comm_iccc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlc_comm_iccc.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/libtlc_direct_comm_atn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlc_direct_comm_atn.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/libtlc_direct_comm_iccc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlc_direct_comm_iccc.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libtzcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzcom.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/libucm_tlc_comm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libucm_tlc_comm.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/libucm_tlc_direct_comm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libucm_tlc_direct_comm.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/libucm_tlc_tz_esecomm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libucm_tlc_tz_esecomm.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libucsengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libucsengine.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniapi.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniplugin.so \
@@ -1467,7 +1416,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpplibrary.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libvpptestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpptestutils.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/libwsmd_functions.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwsmd_functions.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libxcv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxcv.camera.samsung.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
@@ -1555,8 +1503,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@1.0-impl.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.camera.device@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@4.0-impl.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.frameworks.security.dsms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.frameworks.security.dsms@1.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.frameworks.security.ucm.crypto@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.frameworks.security.ucm.crypto@1.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.audio@1.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.authfw@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.authfw@1.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.base@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.base@1.0.so \
@@ -1576,23 +1522,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.1.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.security.proca@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.proca@2.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.security.securestorage@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.securestorage@3.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.vaultkeeper@1.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.snap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.snap@1.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.snap@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.snap@1.1.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.soter@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.soter@3.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.atn@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.atn@1.0-impl.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.atn@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.atn@1.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.iccc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.iccc@1.0-impl.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.iccc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.iccc@1.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.payment@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.payment@1.0-impl.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.payment@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.payment@1.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.tima@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.tima@1.0-impl.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.tima@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.tima@1.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.ucm@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.ucm@2.0-impl.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.ucm@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.ucm@2.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.vibrator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.vibrator@2.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.vibrator@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.vibrator@2.1.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so \
@@ -1611,8 +1541,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/saiv/image_understanding/db/aig_classifier/aig_classifier_cnn.prototxt:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aig_classifier/aig_classifier_cnn.prototxt \
     vendor/samsung/starqltechn/proprietary/vendor/saiv/image_understanding/db/aig_classifier/aig_classifier_cnn_light.caffemodel:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aig_classifier/aig_classifier_cnn_light.caffemodel \
     vendor/samsung/starqltechn/proprietary/vendor/saiv/image_understanding/db/aig_detector/aig_detector_cnn.prototxt:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aig_detector/aig_detector_cnn.prototxt \
-    vendor/samsung/starqltechn/proprietary/vendor/saiv/image_understanding/db/aig_detector/aig_detector_cnn_light.caffemodel:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aig_detector/aig_detector_cnn_light.caffemodel \
-    vendor/samsung/starqltechn/proprietary/vendor/tima_measurement_info:$(TARGET_COPY_OUT_VENDOR)/tima_measurement_info
+    vendor/samsung/starqltechn/proprietary/vendor/saiv/image_understanding/db/aig_detector/aig_detector_cnn_light.caffemodel:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aig_detector/aig_detector_cnn_light.caffemodel
 
 PRODUCT_PACKAGES += \
     ImsSettings \
@@ -1642,7 +1571,4 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0-service-qti \
     vendor.qti.gnss@3.0-service \
     vendor.samsung.hardware.authfw@1.0-manifest \
-    vendor.samsung.hardware.base@1.0-service \
-    vendor.samsung.hardware.tlc.atn@1.0-manifest \
-    vendor.samsung.hardware.tlc.iccc@1.0-manifest \
-    vendor.samsung.hardware.tlc.tima@1.0-manifest
+    vendor.samsung.hardware.base@1.0-service
