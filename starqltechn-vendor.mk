@@ -1540,6 +1540,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/saiv/image_understanding/db/aig_detector/aig_detector_cnn_light.caffemodel:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aig_detector/aig_detector_cnn_light.caffemodel
 
 PRODUCT_PACKAGES += \
+    libkeymaster_portable \
     ImsSettings \
     HotwordEnrollmentOKGoogleExWCD9340 \
     HotwordEnrollmentXGoogleExWCD9340 \
