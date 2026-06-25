@@ -6,7 +6,7 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "libkeymaster_portable_samsung
+	name: "libkeymaster_portable_samsung",
 	stem: "libkeymaster_portable",
 	owner: "samsung",
 	strip: {
