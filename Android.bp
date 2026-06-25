@@ -6,7 +6,8 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "libkeymaster_portable",
+	name: "libkeymaster_portable_samsung
+	stem: "libkeymaster_portable",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -20,6 +21,7 @@ cc_prebuilt_library_shared {
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
+	overrides: ["libkeymaster_portable"],
 }
 
 android_app_import {
