@@ -5,25 +5,6 @@
 soong_namespace {
 }
 
-cc_prebuilt_library_shared {
-	name: "libkeymaster_portable_samsung",
-	stem: "libkeymaster_portable",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libkeymaster_portable.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-	overrides: ["libkeymaster_portable"],
-}
-
 android_app_import {
 	name: "ImsSettings",
 	owner: "samsung",
