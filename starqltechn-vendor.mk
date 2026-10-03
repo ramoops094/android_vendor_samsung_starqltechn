@@ -711,6 +711,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib/libqti_vndfwk_detect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti_vndfwk_detect.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
+    vendor/samsung/starqltechn/proprietary/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib/librmp.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
@@ -1249,6 +1250,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libqti_vndfwk_detect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti_vndfwk_detect.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/libreffeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreffeature.so \
+    vendor/samsung/starqltechn/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmp.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno.so \
