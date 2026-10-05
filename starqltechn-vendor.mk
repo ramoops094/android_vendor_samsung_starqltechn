@@ -792,7 +792,6 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_vorbisdec \
     libstagefright_soft_vpxdec \
     libstagefright_soft_vpxenc \
-    libstagefright_softomx_plugin \
     libstr_capture_interface \
     libstr_preview_interface \
     libstreamparser \
