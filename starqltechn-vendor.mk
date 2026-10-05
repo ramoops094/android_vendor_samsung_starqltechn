@@ -228,8 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/saiv/image_understanding/db/aig_detector/aig_detector_cnn_light.caffemodel:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aig_detector/aig_detector_cnn_light.caffemodel
 
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-legacy \
-    android.hardware.gatekeeper@1.0-impl \
     com.qti.eisv2 \
     com.qti.eisv3 \
     com.qti.stats.aec \
@@ -255,17 +253,8 @@ PRODUCT_PACKAGES += \
     libq3dtools_esx \
     ftm_fm_lib \
     android.hardware.audio.effect@2.0-impl \
-    android.hardware.audio.effect@4.0-impl \
-    android.hardware.audio.effect@5.0-impl \
-    android.hardware.audio@2.0-impl \
-    android.hardware.audio@4.0-impl \
-    android.hardware.audio@5.0-impl \
     android.hardware.gnss@2.0-impl-qti \
     android.hardware.graphics.mapper@2.0-impl-qti-display \
-    android.hardware.keymaster@3.0-impl \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.sensors@1.0-impl \
-    android.hardware.thermal@1.0-impl \
     android.hardware.vr@1.0-impl \
     audio.primary.default \
     audio.r_submix.default \
@@ -601,13 +590,11 @@ PRODUCT_PACKAGES += \
     libxcv.camera.samsung \
     libxml \
     libxtadapter \
-    libdrmclearkeyplugin \
     sensors.bio \
     sensors.grip \
     sensors.ssc \
     libasphere \
     libaudioeffectoffload \
-    libaudiopreprocessing \
     libaudiosaplus_sec \
     libgearvr \
     libmysound \
@@ -689,7 +676,6 @@ PRODUCT_PACKAGES += \
     W08QS_libTsAeFront \
     W08QS_libTsAfFront \
     W08QS_libTsAwbFront \
-    android.hardware.camera.provider@2.5-legacy \
     com.qti.sensor.imx318 \
     com.qti.sensor.imx320 \
     com.qti.sensor.imx345 \
@@ -711,9 +697,6 @@ PRODUCT_PACKAGES += \
     com.qti.node.eisv2 \
     com.qti.node.eisv3 \
     com.qti.node.remosaic \
-    android.hardware.drm@1.0-impl \
-    android.hardware.soundtrigger@2.0-impl \
-    android.hardware.soundtrigger@2.1-impl \
     audio.primary.sdm845 \
     camera.qcom \
     com.samsung.chi.override \
@@ -744,7 +727,6 @@ PRODUCT_PACKAGES += \
     libexthwplugin \
     libfastcrc \
     libgtmdrv \
-    libgui_vendor \
     libhdmiedid \
     libhdmipassthru \
     libhfp \
@@ -759,10 +741,7 @@ PRODUCT_PACKAGES += \
     libsmwrapper \
     libsndmonitor \
     libspkrprot \
-    libstagefright_amrnb_common \
     libstagefright_bufferqueue_helper_vendor \
-    libstagefright_enc_common \
-    libstagefright_flacdec \
     libstagefright_omx_vendor \
     libstagefright_soft_aacdec \
     libstagefright_soft_aacenc \
@@ -865,19 +844,11 @@ PRODUCT_PACKAGES += \
     hdcp2p2prov \
     hvdcp_opti \
     android.hardware.atrace@1.0-service \
-    android.hardware.audio@2.0-service \
-    android.hardware.drm@1.0-service \
     android.hardware.drm@1.2-service.clearkey \
     android.hardware.drm@1.2-service.widevine \
-    android.hardware.gatekeeper@1.0-service \
     android.hardware.gnss@2.0-service-qti \
-    android.hardware.graphics.composer@2.3-service \
     android.hardware.health@2.0-service.samsung \
-    android.hardware.keymaster@3.0-service \
-    android.hardware.memtrack@1.0-service \
     android.hardware.neuralnetworks@1.2-service-qti \
-    android.hardware.sensors@1.0-service \
-    android.hardware.thermal@1.0-service \
     android.hardware.vr@1.0-service \
     capabilityconfigstoretest \
     macloader \
