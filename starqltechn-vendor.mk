@@ -773,7 +773,6 @@ PRODUCT_PACKAGES += \
     libsurround_3mic_proc \
     libvideoutils \
     libvorbisidec \
-    libvpx \
     libwfdaac_vendor \
     libwvhidl \
     libwvdrmengine \
