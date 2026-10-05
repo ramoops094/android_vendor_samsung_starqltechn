@@ -575,7 +575,6 @@ PRODUCT_PACKAGES += \
     libssc_default_listener \
     libssd \
     libstagefright_soft_qtiflacdec \
-    libstagefright_softomx \
     libstagefrighthw \
     libstr_capture_core \
     libstr_preview_core \
