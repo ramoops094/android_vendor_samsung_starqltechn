@@ -228,10 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/saiv/image_understanding/db/aig_detector/aig_detector_cnn_light.caffemodel:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aig_detector/aig_detector_cnn_light.caffemodel
 
 PRODUCT_PACKAGES += \
-    android.hardware.audio.common-util \
-    android.hardware.audio.common@2.0-util \
-    android.hardware.audio.common@4.0-util \
-    android.hardware.audio.common@5.0-util \
     android.hardware.camera.provider@2.4-legacy \
     android.hardware.gatekeeper@1.0-impl \
     com.qti.eisv2 \
