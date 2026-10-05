@@ -8807,63 +8807,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libkeymaster3device",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libkeymaster3device.so",
-            ],
-            shared_libs: [
-                "libkeymaster_messages",
-                "android.hardware.keymaster@3.0",
-                "libcrypto",
-                "libcutils",
-                "libbase",
-                "libhidlbase",
-                "libhidltransport",
-                "libkeymaster_portable",
-                "libpuresoftkeymasterdevice",
-                "liblog",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkeymaster3device.so",
-            ],
-            shared_libs: [
-                "libkeymaster_messages",
-                "android.hardware.keymaster@3.0",
-                "libcrypto-v29",
-                "libcutils",
-                "libbase",
-                "libhidlbase",
-                "libhidltransport",
-                "libkeymaster_portable-v29",
-                "libpuresoftkeymasterdevice-v29",
-                "liblog",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "liblbs_core",
     owner: "samsung",
     strip: {
