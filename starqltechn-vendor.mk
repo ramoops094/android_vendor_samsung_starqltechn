@@ -426,7 +426,6 @@ PRODUCT_PACKAGES += \
     libidl \
     libizat_client_api \
     libizat_core \
-    libkeymaster3device \
     liblbs_core \
     liblistensoundmodel2 \
     libllhdr_interface \
