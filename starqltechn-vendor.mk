@@ -429,7 +429,6 @@ PRODUCT_PACKAGES += \
     libnetmgr_common \
     liboemaids_vendor \
     liboemcrypto \
-    libpa \
     libpadm \
     libpassese \
     libpdmapper \
