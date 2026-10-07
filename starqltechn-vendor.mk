@@ -483,7 +483,6 @@ PRODUCT_PACKAGES += \
     libqti-perfd \
     libqti-util \
     libqti-utils \
-    libqti_vndfwk_detect \
     libqtigef \
     libril \
     librmp \
@@ -580,7 +579,6 @@ PRODUCT_PACKAGES += \
     libvdis_interface \
     libvideobeauty_interface \
     libvkmanager_vendor \
-    libvndfwk_detect_jni.qti \
     libvndsecril-client \
     libvppclient \
     libvpphcp \
