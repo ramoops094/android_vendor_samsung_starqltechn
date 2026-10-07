@@ -730,7 +730,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_faceproc2 \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
-    libopus \
     libpredeflicker_native \
     librecordalive \
     libsamsungVoipResampler \
