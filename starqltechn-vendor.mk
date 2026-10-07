@@ -375,7 +375,6 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libdisplaydebug \
     libdisplayqos \
-    libdrm \
     libdrmfs \
     libdrmtime \
     libdrmutils \
