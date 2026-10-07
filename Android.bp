@@ -5,7 +5,6 @@
 soong_namespace {
     imports: [
         "device/samsung/starqltechn",
-        "hardware/lineage/compat",
         "hardware/qcom-caf/sdm845",
         "hardware/samsung",
         "vendor/qcom/opensource/dataservices",
