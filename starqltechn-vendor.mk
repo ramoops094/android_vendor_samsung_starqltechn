@@ -686,7 +686,6 @@ PRODUCT_PACKAGES += \
     libfastcrc \
     libgtmdrv \
     libhdmipassthru \
-    libhfp \
     libmmcamera_faceproc \
     libmmcamera_faceproc2 \
     libmmrtpdecoder_proprietary \
