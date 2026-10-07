@@ -1217,66 +1217,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.mapper@2.0-impl-qti-display",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libqdMetaData",
-                "libgrallocutils",
-                "libgralloccore",
-                "libsync",
-                "android.hardware.graphics.mapper@2.0",
-                "android.hardware.graphics.mapper@2.1",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libqdMetaData",
-                "libgrallocutils",
-                "libgralloccore",
-                "libsync",
-                "android.hardware.graphics.mapper@2.0",
-                "android.hardware.graphics.mapper@2.1",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.vr@1.0-impl",
     owner: "samsung",
     strip: {
@@ -3375,47 +3315,6 @@ cc_prebuilt_library_shared {
                 "libOpenCL",
                 "libion",
                 "libQSEEComAPI",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libOmxCore",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libOmxCore.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libplatformconfig",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libOmxCore.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libplatformconfig",
                 "libc++",
                 "libc",
                 "libm",
