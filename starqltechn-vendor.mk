@@ -389,7 +389,6 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgnsspps \
     libgps.utils \
-    libgralloccore \
     libgrallocutils \
     libgsl \
     libhdcp1prov \
@@ -486,7 +485,6 @@ PRODUCT_PACKAGES += \
     libsdm-diag \
     libsdm-disp-vndapis \
     libsdmextension \
-    libsdmutils \
     libsdsprpc \
     libsec-ril-dsds \
     libsec-ril \
@@ -586,7 +584,6 @@ PRODUCT_PACKAGES += \
     libqcbassboost \
     libqcreverb \
     libqcvirt \
-    libsamsungSoundbooster_plus \
     libshoebox \
     libswdap \
     libvolumelistener \
@@ -683,7 +680,6 @@ PRODUCT_PACKAGES += \
     libaudio_soundtrigger \
     libchiss3alogdebug \
     libcom.qti.chinodeutils \
-    libcomprcapture \
     libcppf \
     libdeccfg \
     libdrc \
