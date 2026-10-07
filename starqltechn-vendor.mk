@@ -389,7 +389,6 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgnsspps \
     libgps.utils \
-    libgpu_tonemapper \
     libgralloccore \
     libgrallocutils \
     libgsl \
@@ -486,7 +485,6 @@ PRODUCT_PACKAGES += \
     libsdm-color \
     libsdm-diag \
     libsdm-disp-vndapis \
-    libsdmcore \
     libsdmextension \
     libsdmutils \
     libsdsprpc \
@@ -586,7 +584,6 @@ PRODUCT_PACKAGES += \
     libmyspace \
     libplaybackrecorder \
     libqcbassboost \
-    libqcomvoiceprocessing \
     libqcreverb \
     libqcvirt \
     libsamsungSoundbooster_plus \
@@ -685,7 +682,6 @@ PRODUCT_PACKAGES += \
     libaudio_log_utils \
     libaudio_soundtrigger \
     libchiss3alogdebug \
-    libcirrusspkrprot \
     libcom.qti.chinodeutils \
     libcomprcapture \
     libcppf \
