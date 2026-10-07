@@ -5,6 +5,7 @@
 soong_namespace {
     imports: [
         "device/samsung/starqltechn",
+        "hardware/lineage/compat",
         "hardware/qcom-caf/sdm845",
         "hardware/samsung",
         "vendor/qcom/opensource/dataservices",
@@ -11580,63 +11581,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libpng",
                 "libQSEEComAPI",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libskeymaster3device",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libskeymaster3device.so",
-            ],
-            shared_libs: [
-                "libkeymaster_messages",
-                "libcrypto",
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libbase",
-                "libhidlbase",
-                "libhidltransport",
-                "libkeymaster_portable",
-                "android.hardware.keymaster@3.0",
-                "libkeymaster3device",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libskeymaster3device.so",
-            ],
-            shared_libs: [
-                "libkeymaster_messages",
-                "libcrypto-v29",
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libbase",
-                "libhidlbase",
-                "libhidltransport",
-                "libkeymaster_portable-v29",
-                "android.hardware.keymaster@3.0",
-                "libkeymaster3device",
                 "libc++",
                 "libc",
                 "libm",
