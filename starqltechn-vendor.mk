@@ -694,7 +694,6 @@ PRODUCT_PACKAGES += \
     librecordalive \
     libsamsungVoipResampler \
     libsmwrapper \
-    libspkrprot \
     libstagefright_bufferqueue_helper_vendor \
     libstagefright_omx_vendor \
     libstagefright_soft_aacdec \
