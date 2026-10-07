@@ -6185,45 +6185,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libdrmutils",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libdrmutils.so",
-            ],
-            shared_libs: [
-                "libdrm",
-                "libdisplaydebug",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libdrmutils.so",
-            ],
-            shared_libs: [
-                "libdrm",
-                "libdisplaydebug",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libdsi_netctrl",
     owner: "samsung",
     strip: {
@@ -10285,49 +10246,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libqseed3.so",
             ],
             shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqservice",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libqservice.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libbinder",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqservice.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libbinder",
                 "libc++",
                 "libc",
                 "libm",
@@ -15717,48 +15635,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libqcomvisualizer",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/soundfx/libqcomvisualizer.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libtinyalsa",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libqcomvisualizer.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libtinyalsa",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libqcomvoiceprocessing",
     owner: "samsung",
     strip: {
@@ -19640,48 +19516,6 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcutils",
                 "libtinyalsa",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libbatterylistener",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libbatterylistener.so",
-            ],
-            shared_libs: [
-                "android.hardware.health@1.0",
-                "android.hardware.health@2.0",
-                "android.hardware.power@1.2",
-                "libaudioroute",
-                "libaudioutils",
-                "libbase",
-                "libcutils",
-                "libexpat",
-                "libhidlbase",
-                "libhidltransport",
-                "liblog",
-                "libtinyalsa",
-                "libtinycompress",
-                "libutils",
-                "libsecaudioinfo",
-                "libaudio_soundtrigger",
-                "libsamsungVoipResampler",
-                "librecordalive",
                 "libc++",
                 "libc",
                 "libm",
