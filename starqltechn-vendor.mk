@@ -828,11 +828,3 @@ PRODUCT_PACKAGES += \
     vppservice \
     wvkprov \
     xtra-daemon
-
-PRODUCT_PACKAGES += \
-    vendor_lib_egl_libEGL_adreno_so \
-    vendor_lib_egl_libGLESv2_adreno_so \
-    vendor_lib_egl_libq3dtools_adreno_so \
-    vendor_lib64_egl_libEGL_adreno_so \
-    vendor_lib64_egl_libGLESv2_adreno_so \
-    vendor_lib64_egl_libq3dtools_adreno_so
