@@ -370,7 +370,6 @@ PRODUCT_PACKAGES += \
     libdisplayqos \
     libdrmfs \
     libdrmtime \
-    libdrmutils \
     libdsi_netctrl \
     libdsutils \
     libegis_fp_normal_sensor_test \
@@ -465,7 +464,6 @@ PRODUCT_PACKAGES += \
     libqmiservices \
     libqrtr \
     libqseed3 \
-    libqservice \
     libqsocket \
     libqti-iopd-client \
     libqti-iopd \
@@ -588,7 +586,6 @@ PRODUCT_PACKAGES += \
     libmyspace \
     libplaybackrecorder \
     libqcbassboost \
-    libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcreverb \
     libqcvirt \
@@ -687,7 +684,6 @@ PRODUCT_PACKAGES += \
     libapex_utils \
     libaudio_log_utils \
     libaudio_soundtrigger \
-    libbatterylistener \
     libchiss3alogdebug \
     libcirrusspkrprot \
     libcom.qti.chinodeutils \
