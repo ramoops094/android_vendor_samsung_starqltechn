@@ -344,7 +344,6 @@ PRODUCT_PACKAGES += \
     libblurdetection \
     libblurdetection_interface \
     libc2d30_bltlib \
-    libc2dcolorconvert \
     libcamera_nn_stub \
     libcamxfdalgov7 \
     libcamxfdengine \
@@ -454,7 +453,6 @@ PRODUCT_PACKAGES += \
     libqdi \
     libqdma \
     libqdp \
-    libqdutils \
     libqfp_sensortest \
     libqisl \
     libqmi \
@@ -590,7 +588,6 @@ PRODUCT_PACKAGES += \
     libmyspace \
     libplaybackrecorder \
     libqcbassboost \
-    libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcreverb \
@@ -684,7 +681,6 @@ PRODUCT_PACKAGES += \
     lib_SamsungRec_06006 \
     lib_SoundAlive_SRC384_ver320 \
     lib_soundaliveresampler \
-    liba2dpoffload \
     libadm \
     libadpcmdec \
     libapex_cmn \
