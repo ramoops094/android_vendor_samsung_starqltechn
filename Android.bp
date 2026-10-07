@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "device/samsung/starqltechn",
         "hardware/qcom-caf/sdm845",
         "hardware/samsung",
         "vendor/qcom/opensource/display",
@@ -21878,40 +21879,6 @@ cc_prebuilt_binary {
                 "android.hardware.gnss@1.1",
                 "android.hardware.gnss@2.0",
                 "vendor.samsung.hardware.gnss@2.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.health@2.0-service.samsung",
-    owner: "samsung",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.health@2.0-service.samsung",
-            ],
-            shared_libs: [
-                "libbase",
-                "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
-                "libutils-v30",
-                "libcutils",
-                "liblog",
-                "android.hardware.health@2.0",
-                "vendor.samsung.hardware.health@1.0",
                 "libc++",
                 "libc",
                 "libm",
