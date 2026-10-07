@@ -8295,47 +8295,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmdf",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmdf.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcrypto",
-                "libc",
-                "libsecure_storage",
-                "libc++",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmdf.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcrypto",
-                "libc",
-                "libsecure_storage",
-                "libc++",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmdmdetect",
     owner: "samsung",
     strip: {
@@ -10904,47 +10863,6 @@ cc_prebuilt_library_shared {
                 "libsavscmn",
                 "libc++",
                 "libc",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libsdedrm",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libsdedrm.so",
-            ],
-            shared_libs: [
-                "libdrm",
-                "libdrmutils",
-                "libdisplaydebug",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsdedrm.so",
-            ],
-            shared_libs: [
-                "libdrm",
-                "libdrmutils",
-                "libdisplaydebug",
-                "libc++",
-                "libc",
-                "libm",
                 "libdl",
             ],
         },
