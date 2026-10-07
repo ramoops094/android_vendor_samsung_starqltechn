@@ -489,7 +489,6 @@ PRODUCT_PACKAGES += \
     libsemnativecarrierfeature \
     libsensorslog \
     libsi \
-    libskeymaster3device \
     libsmartfocus_interface \
     libsmartfocusengine \
     libsnaace \
