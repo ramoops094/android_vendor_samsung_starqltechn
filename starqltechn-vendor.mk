@@ -629,8 +629,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.radio.bridge@2.0 \
     vendor.samsung.hardware.radio.channel@2.0 \
-    vendor.samsung.hardware.radio@2.0 \
-    vendor.samsung.hardware.radio@2.1 \
     H12QS_libTsAe \
     H12QS_libTsAf \
     H12QS_libTsAwb \
