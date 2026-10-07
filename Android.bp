@@ -1222,58 +1222,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.vr@1.0-impl",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/android.hardware.vr@1.0-impl.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libhardware",
-                "libbase",
-                "libcutils",
-                "libutils",
-                "libhidlbase",
-                "libhidltransport",
-                "android.hardware.vr@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/android.hardware.vr@1.0-impl.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libhardware",
-                "libbase",
-                "libcutils",
-                "libutils",
-                "libhidlbase",
-                "libhidltransport",
-                "android.hardware.vr@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "audio.primary.default",
     owner: "samsung",
     strip: {
@@ -20884,37 +20832,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libucsengine",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libucsengine.so",
-            ],
-            shared_libs: [
-                "libcrypto",
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libbinder",
-                "vendor.samsung.frameworks.security.ucm.crypto@1.0",
-                "libhidlbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libvkservice",
     owner: "samsung",
     strip: {
@@ -21343,42 +21260,6 @@ cc_prebuilt_binary {
                 "libQSEEComAPI",
                 "libc++",
                 "liboemcrypto",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "adpl",
-    owner: "samsung",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/adpl",
-            ],
-            shared_libs: [
-                "liblog",
-                "librmnetctl",
-                "libqmi_cci",
-                "libdsutils",
-                "libdiag",
-                "libqmiservices",
-                "libqmi",
-                "libnetutils",
-                "libcutils",
-                "libqmi_client_qmux",
-                "libqmi_encdec",
-                "libqcmaputils",
-                "libc++",
                 "libc",
                 "libm",
                 "libdl",
@@ -22073,37 +21954,6 @@ cc_prebuilt_binary {
                 "android.hidl.allocator@1.0",
                 "android.hidl.memory@1.0",
                 "libprotobuf-cpp-full-vendorcompat",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.vr@1.0-service",
-    owner: "samsung",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.vr@1.0-service",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "android.hardware.vr@1.0",
                 "libc++",
                 "libc",
                 "libm",
