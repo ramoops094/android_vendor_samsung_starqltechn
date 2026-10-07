@@ -418,7 +418,6 @@ PRODUCT_PACKAGES += \
     liblowi_client \
     liblowi_wifihal \
     liblqe \
-    libmdf \
     libmdmdetect \
     libmdsprpc \
     libmfhdr_interface \
@@ -479,7 +478,6 @@ PRODUCT_PACKAGES += \
     libsavsac \
     libsavscmn \
     libsavsvc \
-    libsdedrm \
     libsdm-color \
     libsdm-diag \
     libsdm-disp-vndapis \
