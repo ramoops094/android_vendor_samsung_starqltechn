@@ -1519,62 +1519,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "gralloc.sdm845",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/gralloc.sdm845.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhardware",
-                "libqdMetaData",
-                "libsync",
-                "libgrallocutils",
-                "libgralloccore",
-                "android.hardware.graphics.mapper@2.0",
-                "android.hardware.graphics.mapper@2.1",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/gralloc.sdm845.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhardware",
-                "libqdMetaData",
-                "libsync",
-                "libgrallocutils",
-                "libgralloccore",
-                "android.hardware.graphics.mapper@2.0",
-                "android.hardware.graphics.mapper@2.1",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "hwcomposer.sdm845",
     owner: "samsung",
     strip: {
@@ -3645,53 +3589,6 @@ cc_prebuilt_library_shared {
                 "libui",
                 "libutils",
                 "libc2dcolorconvert",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libOmxVdec",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libOmxVdec.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libc2dcolorconvert",
-                "libqdMetaData",
-                "libplatformconfig",
-                "libOmxBlackBar",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libOmxVdec.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libc2dcolorconvert",
-                "libqdMetaData",
-                "libplatformconfig",
-                "libOmxBlackBar",
                 "libc++",
                 "libc",
                 "libm",
