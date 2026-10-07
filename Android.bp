@@ -19446,41 +19446,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libhfp",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libhfp.so",
-            ],
-            shared_libs: [
-                "libaudioroute",
-                "libaudioutils",
-                "libcutils",
-                "libexpat",
-                "liblog",
-                "libtinyalsa",
-                "libtinycompress",
-                "libsecaudioinfo",
-                "libaudio_soundtrigger",
-                "libsamsungVoipResampler",
-                "librecordalive",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmmcamera_faceproc",
     owner: "samsung",
     strip: {
