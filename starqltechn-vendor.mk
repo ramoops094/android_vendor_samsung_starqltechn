@@ -645,10 +645,6 @@ PRODUCT_PACKAGES += \
     com.samsung.node.uniplugin_preview \
     com.samsung.node.uniplugin_recording \
     com.samsung.node.uniplugin_vdis \
-    com.ss.stats.aec \
-    com.ss.stats.af \
-    com.ss.stats.awb \
-    com.ss.stats.pdlib \
     com.qti.node.eisv2 \
     com.qti.node.eisv3 \
     com.qti.node.remosaic \
