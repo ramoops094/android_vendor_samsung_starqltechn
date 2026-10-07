@@ -389,7 +389,6 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgnsspps \
     libgps.utils \
-    libgrallocutils \
     libgsl \
     libhdcp1prov \
     libhdcp2p2prov \
@@ -586,7 +585,6 @@ PRODUCT_PACKAGES += \
     libqcvirt \
     libshoebox \
     libswdap \
-    libvolumelistener \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
@@ -685,7 +683,6 @@ PRODUCT_PACKAGES += \
     libdrc \
     libdsd2pcm \
     libdualcam_optical_zoom_control \
-    libexthwplugin \
     libfastcrc \
     libgtmdrv \
     libhdmiedid \
