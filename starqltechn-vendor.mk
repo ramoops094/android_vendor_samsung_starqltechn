@@ -632,7 +632,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@3.0 \
     vendor.qti.hardware.automotive.vehicle@1.0 \
     vendor.qti.hardware.cacert@1.0 \
-    vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.cryptfshw@1.0 \
     vendor.qti.hardware.cvp@1.0-halimpl \
     vendor.qti.hardware.cvp@1.0 \
