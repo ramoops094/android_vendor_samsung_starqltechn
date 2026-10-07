@@ -685,7 +685,6 @@ PRODUCT_PACKAGES += \
     libdualcam_optical_zoom_control \
     libfastcrc \
     libgtmdrv \
-    libhdmiedid \
     libhdmipassthru \
     libhfp \
     libmmcamera_faceproc \
@@ -696,7 +695,6 @@ PRODUCT_PACKAGES += \
     librecordalive \
     libsamsungVoipResampler \
     libsmwrapper \
-    libsndmonitor \
     libspkrprot \
     libstagefright_bufferqueue_helper_vendor \
     libstagefright_omx_vendor \
