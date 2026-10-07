@@ -492,7 +492,6 @@ PRODUCT_PACKAGES += \
     libsecureui \
     libsecureui_svcsock \
     libsemnativecarrierfeature \
-    libsensorlistener \
     libsensorslog \
     libsi \
     libskeymaster3device \
