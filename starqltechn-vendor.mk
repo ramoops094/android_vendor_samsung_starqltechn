@@ -46,8 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/android.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@1.0-service.rc \
-    vendor/samsung/starqltechn/proprietary/vendor/etc/init/android.hardware.vr@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vr@1.0-service.rc \
-    vendor/samsung/starqltechn/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/hw/init.samsung.bsp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.samsung.bsp.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/hw/init.samsung.display.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.samsung.display.rc \
     vendor/samsung/starqltechn/proprietary/vendor/etc/init/hw/init.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.samsung.rc \
@@ -254,7 +252,6 @@ PRODUCT_PACKAGES += \
     ftm_fm_lib \
     android.hardware.audio.effect@2.0-impl \
     android.hardware.gnss@2.0-impl-qti \
-    android.hardware.vr@1.0-impl \
     audio.primary.default \
     audio.r_submix.default \
     audio.sec_primary.default \
@@ -740,7 +737,6 @@ PRODUCT_PACKAGES += \
     libqdma_file_agent \
     libreffeature \
     libtzcom \
-    libucsengine \
     libvkservice \
     unnhal-acc-adreno \
     unnhal-acc-common \
@@ -763,7 +759,6 @@ PRODUCT_PACKAGES += \
     ATFWD-daemon \
     PktRspTest \
     StoreKeybox \
-    adpl \
     adsprpcd \
     argosd \
     audioflacapp \
@@ -788,7 +783,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0-service-qti \
     android.hardware.health@2.0-service.samsung \
     android.hardware.neuralnetworks@1.2-service-qti \
-    android.hardware.vr@1.0-service \
     capabilityconfigstoretest \
     macloader \
     mfgloader \
