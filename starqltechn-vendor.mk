@@ -261,7 +261,6 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     fingerprint.default \
     gralloc.default \
-    gralloc.sdm845 \
     hwcomposer.sdm845 \
     lights.sdm845 \
     memtrack.sdm845 \
@@ -309,7 +308,6 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxSwVdec \
     libOmxSwVencMpeg4 \
-    libOmxVdec \
     libOmxVenc \
     libOmxVpp \
     libOmxWmaDec \
