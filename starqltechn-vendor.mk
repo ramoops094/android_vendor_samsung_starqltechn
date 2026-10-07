@@ -254,7 +254,6 @@ PRODUCT_PACKAGES += \
     ftm_fm_lib \
     android.hardware.audio.effect@2.0-impl \
     android.hardware.gnss@2.0-impl-qti \
-    android.hardware.graphics.mapper@2.0-impl-qti-display \
     android.hardware.vr@1.0-impl \
     audio.primary.default \
     audio.r_submix.default \
@@ -302,7 +301,6 @@ PRODUCT_PACKAGES += \
     libOmxApeDec \
     libOmxApeDecSw \
     libOmxBlackBar \
-    libOmxCore \
     libOmxEvrcDec \
     libOmxEvrcEnc \
     libOmxG711Dec \
