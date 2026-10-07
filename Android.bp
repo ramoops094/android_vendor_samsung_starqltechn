@@ -8863,55 +8863,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libpa",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libpa.so",
-            ],
-            shared_libs: [
-                "libdl",
-                "vendor.samsung.hardware.security.proca@2.0",
-                "libc++",
-                "libutils",
-                "liblog",
-                "libhwbinder",
-                "libhidltransport",
-                "libhidlmemory",
-                "libhidlbase",
-                "libc",
-                "libm",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libpa.so",
-            ],
-            shared_libs: [
-                "vendor.samsung.hardware.security.proca@2.0",
-                "libc++",
-                "libutils",
-                "liblog",
-                "libhwbinder",
-                "libhidltransport",
-                "libhidlmemory",
-                "libhidlbase",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libpadm",
     owner: "samsung",
     strip: {
