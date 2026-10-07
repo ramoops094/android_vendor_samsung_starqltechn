@@ -308,7 +308,6 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxSwVdec \
     libOmxSwVencMpeg4 \
-    libOmxVenc \
     libOmxVpp \
     libOmxWmaDec \
     libOpenCL \
@@ -369,7 +368,6 @@ PRODUCT_PACKAGES += \
     libdiagjni \
     libdisp-aba \
     libdisplayconfig \
-    libdisplaydebug \
     libdisplayqos \
     libdrmfs \
     libdrmtime \
@@ -453,7 +451,6 @@ PRODUCT_PACKAGES += \
     libpvr \
     libqcbor \
     libqcmaputils \
-    libqdMetaData \
     libqdi \
     libqdma \
     libqdp \
@@ -553,7 +550,6 @@ PRODUCT_PACKAGES += \
     libssc_default_listener \
     libssd \
     libstagefright_soft_qtiflacdec \
-    libstagefrighthw \
     libstr_capture_core \
     libstr_preview_core \
     libsubsystem_control \
@@ -679,7 +675,6 @@ PRODUCT_PACKAGES += \
     com.qti.node.eisv2 \
     com.qti.node.eisv3 \
     com.qti.node.remosaic \
-    audio.primary.sdm845 \
     camera.qcom \
     com.samsung.chi.override \
     libFileMux_proprietary \
@@ -835,7 +830,6 @@ PRODUCT_PACKAGES += \
     rild \
     vendor.qti.hardware.cryptfshw@1.0-service-qti \
     vendor.qti.hardware.cvp@1.0-service \
-    vendor.qti.hardware.display.allocator@1.0-service \
     vendor.qti.hardware.iop@2.0-service \
     vendor.qti.hardware.perf@2.0-service \
     vendor.qti.hardware.qdutils_disp@1.0-service-qti \
@@ -864,7 +858,6 @@ PRODUCT_PACKAGES += \
     qseecom_sample_client \
     qseecomd \
     rmt_storage \
-    secril_config_svc \
     secure_ui_sample_client \
     seemp_healthd \
     snap_utility_32 \
