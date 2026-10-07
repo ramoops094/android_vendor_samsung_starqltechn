@@ -763,13 +763,6 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_libhexagon_nn_skel_so \
     vendor_lib_rfsa_adsp_libsns_device_mode_skel_so \
     vendor_lib_rfsa_adsp_libsns_low_lat_stream_skel_so \
-    com.quicinc.cne.api@1.0 \
-    com.quicinc.cne.api@1.1 \
-    com.quicinc.cne.constants@1.0 \
-    com.quicinc.cne.constants@2.0 \
-    com.quicinc.cne.constants@2.1 \
-    vendor.qti.data.factory@1.0 \
-    vendor.qti.hardware.data.iwlan@1.0 \
     ATFWD-daemon \
     PktRspTest \
     StoreKeybox \
