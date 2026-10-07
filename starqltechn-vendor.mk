@@ -767,7 +767,6 @@ PRODUCT_PACKAGES += \
     libsuper_night_interface \
     libsurround_3mic_proc \
     libvideoutils \
-    libvorbisidec \
     libwfdaac_vendor \
     libwvhidl \
     libwvdrmengine \
