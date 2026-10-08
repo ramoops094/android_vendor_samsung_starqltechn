@@ -718,8 +718,6 @@ PRODUCT_PACKAGES += \
     libFacialStickerEngine.arcsoft \
     libflicker \
     libhexagon_nn_stub \
-    libkeymaster2_mdfpp \
-    libkeymaster_helper_vendor \
     liblearningmodule \
     libloadalgo_stub \
     libmdmimgload \
