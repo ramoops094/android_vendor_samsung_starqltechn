@@ -714,7 +714,6 @@ PRODUCT_PACKAGES += \
     libwvdrmengine \
     vendor.qti.hardware.audiohalext@1.0 \
     gatekeeper.mdfpp \
-    keystore.mdfpp \
     libFacialStickerEngine.arcsoft \
     libflicker \
     libhexagon_nn_stub \
