@@ -679,9 +679,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
     vendor.qti.hardware.data.cne.internal.server@1.0 \
-    vendor.qti.hardware.data.connection@1.0 \
-    vendor.qti.hardware.data.connection@1.1 \
-    vendor.qti.hardware.data.dynamicdds@1.0 \
+    vendor.qti.hardware.data.connection@1.0_vendor \
+    vendor.qti.hardware.data.connection@1.1_vendor \
+    vendor.qti.hardware.data.dynamicdds@1.0_vendor \
     vendor.qti.hardware.data.qmi@1.0 \
     vendor.qti.hardware.fingerprint@1.0 \
     vendor.qti.hardware.fm@1.0 \
@@ -689,16 +689,16 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.iop@2.0 \
     vendor.qti.hardware.qdutils_disp@1.0 \
     vendor.qti.hardware.qseecom@1.0 \
-    vendor.qti.hardware.scve.objecttracker@1.0 \
-    vendor.qti.hardware.scve.panorama@1.0 \
+    vendor.qti.hardware.scve.objecttracker@1.0_vendor \
+    vendor.qti.hardware.scve.panorama@1.0_vendor \
     vendor.qti.hardware.tui_comm@1.0 \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.ims.callinfo@1.0 \
     vendor.qti.ims.rcsconfig@1.0 \
-    vendor.qti.imsrtpservice@2.0 \
-    vendor.qti.imsrtpservice@2.1 \
-    vendor.qti.latency@2.0 \
+    vendor.qti.imsrtpservice@2.0_vendor \
+    vendor.qti.imsrtpservice@2.1_vendor \
+    vendor.qti.latency@2.0_vendor \
     vendor.qti.power.pasrmanager@1.0 \
     vendor.qti.voiceprint@1.0 \
     vendor.samsung.hardware.audio@1.0 \

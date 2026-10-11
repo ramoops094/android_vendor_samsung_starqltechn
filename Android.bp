@@ -19939,7 +19939,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.connection@1.0",
+    name: "vendor.qti.hardware.data.connection@1.0_vendor",
+    stem: "vendor.qti.hardware.data.connection@1.0",
     owner: "samsung",
     strip: {
         none: true,
@@ -19986,7 +19987,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.connection@1.1",
+    name: "vendor.qti.hardware.data.connection@1.1_vendor",
+    stem: "vendor.qti.hardware.data.connection@1.1",
     owner: "samsung",
     strip: {
         none: true,
@@ -20035,7 +20037,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.dynamicdds@1.0",
+    name: "vendor.qti.hardware.data.dynamicdds@1.0_vendor",
+    stem: "vendor.qti.hardware.data.dynamicdds@1.0",
     owner: "samsung",
     strip: {
         none: true,
@@ -20411,7 +20414,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.scve.objecttracker@1.0",
+    name: "vendor.qti.hardware.scve.objecttracker@1.0_vendor",
+    stem: "vendor.qti.hardware.scve.objecttracker@1.0",
     owner: "samsung",
     strip: {
         none: true,
@@ -20458,7 +20462,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.scve.panorama@1.0",
+    name: "vendor.qti.hardware.scve.panorama@1.0_vendor",
+    stem: "vendor.qti.hardware.scve.panorama@1.0",
     owner: "samsung",
     strip: {
         none: true,
@@ -20742,7 +20747,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.imsrtpservice@2.0",
+    name: "vendor.qti.imsrtpservice@2.0_vendor",
+    stem: "vendor.qti.imsrtpservice@2.0",
     owner: "samsung",
     strip: {
         none: true,
@@ -20789,7 +20795,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.imsrtpservice@2.1",
+    name: "vendor.qti.imsrtpservice@2.1_vendor",
+    stem: "vendor.qti.imsrtpservice@2.1",
     owner: "samsung",
     strip: {
         none: true,
@@ -20838,7 +20845,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.latency@2.0",
+    name: "vendor.qti.latency@2.0_vendor",
+    stem: "vendor.qti.latency@2.0",
     owner: "samsung",
     strip: {
         none: true,
